@@ -1,0 +1,81 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mr62/Desktop/Uni-Run
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53071
+Successfully changed project path to: /Users/mr62/Desktop/Uni-Run
+/Users/mr62/Desktop/Uni-Run
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mr62/Desktop/Uni-Run/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-13 13:27:16.135 Unity[4996:124502] LG UltraFine preferred device: AMD Radeon Pro W5700X (high power)
+2021-05-13 13:27:16.135 Unity[4996:124502] Metal devices available: 1
+2021-05-13 13:27:16.135 Unity[4996:124502] 0: AMD Radeon Pro W5700X (high power)
+2021-05-13 13:27:16.135 Unity[4996:124502] Using device AMD Radeon Pro W5700X (high power)
+Initializing Metal device caps: AMD Radeon Pro W5700X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56996
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000549 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 31.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.549 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000925 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1645 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2058.
+Total: 5.616660 ms (FindLiveObjects: 0.237208 ms CreateObjectMapping: 0.042543 ms MarkObjects: 5.248755 ms  DeleteObjects: 0.086934 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Resources/BillingMode.json
+  artifactKey: Guid(ea04ff7f0bc6140f097db439e260465f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/BillingMode.json using Guid(ea04ff7f0bc6140f097db439e260465f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a330431e67f0a427df08048ee4aaabfb') in 1.370264 seconds
+  Import took 1.373318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Sprites/Toko_Jump.png
+  artifactKey: Guid(f716f7502ddb743ef982e4d223876d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Toko_Jump.png using Guid(f716f7502ddb743ef982e4d223876d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f746e9da99a4fb5e9c38323bb9b29f') in 0.938809 seconds
+  Import took 0.941780 seconds .
+
